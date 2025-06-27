@@ -266,23 +266,23 @@
     <div class="container">
         <header class="header">
             <h1 class="title">Sacred Seconds</h1>
-            <p class="subtitle">Sacred timing isn't coincidence—it's your angels speaking. Decode their message.⏰✨</p>
+            <p class="subtitle">Decode hand-delivered messages directly from heavenly beings. What time did you just see? ⏰✨</p>
         </header>
 
         <div class="input-section">
             <p class="prompt-text">
-                Enter the clock number you've been seeing—like 11:11 or 4:44—and I'll interpret its meaning for you.
+                What time do you keep seeing repeatedly? Your angels are trying to reach you through sacred timing patterns.
             </p>
             
             <input type="text" 
                    class="time-input" 
                    id="timeInput" 
-                   placeholder="11:11" 
+                   placeholder="4:27" 
                    maxlength="5">
             
             <textarea class="context-input" 
                       id="contextInput" 
-                      placeholder="What were you thinking or feeling when you saw this time? (optional)"></textarea>
+                      placeholder="How often do you see this time? What's usually happening when you notice it? (optional)"></textarea>
             
             <button class="reveal-btn" id="revealBtn" onclick="revealMeaning()">
                 Reveal Sacred Message
@@ -518,11 +518,11 @@
                 if (interpretation) {
                     displayInterpretation(interpretation, timeInput, contextInput);
                 } else {
-                    // Generic interpretation for unknown times
+                    // Enhanced interpretation for unknown times based on repeated sightings
                     const genericInterpretation = {
-                        instant: "The universe is speaking to you through this sacred moment. Trust that seeing this time is not a coincidence.",
-                        symbolism: `The time ${timeInput} carries its own unique energy signature. Each number holds meaning - pay attention to what your intuition tells you about this moment.`,
-                        step: "Reflect on what was happening in your mind or heart when you saw this time. The universe often uses numbers to confirm our inner knowing."
+                        instant: "Your angels have chosen this specific time to reach you repeatedly. When you keep seeing the same time, it's never coincidence—it's divine communication.",
+                        symbolism: `The time ${timeInput} carries sacred meaning in your life. Your angels are using this repeated timing to get your attention and deliver an important message. Each number holds energy, and this combination speaks directly to your soul's journey.`,
+                        step: "Pay attention to what's happening in your life when you see this time. Your angels are highlighting something important - a thought, feeling, or situation that needs your focus. Trust the pattern."
                     };
                     displayInterpretation(genericInterpretation, timeInput, contextInput);
                 }
@@ -535,8 +535,8 @@
             let contextMessage = '';
             if (context) {
                 contextMessage = `<div style="background: rgba(255,255,255,0.05); padding: 20px; border-radius: 10px; margin-bottom: 30px; font-style: italic;">
-                    <strong>Your Context:</strong> "${context}"<br>
-                    <span style="opacity: 0.8; font-size: 0.9rem;">The universe sees your heart and responds accordingly.</span>
+                    <strong>Your Pattern:</strong> "${context}"<br>
+                    <span style="opacity: 0.8; font-size: 0.9rem;">Your angels hear you and are responding through this sacred timing.</span>
                 </div>`;
             }
 
